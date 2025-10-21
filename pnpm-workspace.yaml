@@ -1,2 +1,2 @@
 packages:
-  - q-block-backend
+  - packages/q-block-backend
