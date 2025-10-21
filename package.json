@@ -10,7 +10,9 @@
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
     "typecheck": "tsc --noEmit -b packages/*",
     "build": "tsc -b packages/*",
-    "dev:backend": "pnpm --filter q-block-backend dev"
+    "backend:add": "pnpm --filter q-block-backend add",
+    "backend:add-dev": "pnpm --filter q-block-backend add -D",
+    "backend:dev": "pnpm --filter q-block-backend dev"
   },
   "keywords": [],
   "author": "",
